@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlayerInfo>
+	<!--规则一：节点名和变量名一样-->
+	<name>kk</name>
+	<atk>50</atk>
+	<def>15</def>
+	<moveSpeed>15</moveSpeed>
+	<roundSpeed>16</roundSpeed>
+	<weapon>
+		<id>1</id>
+		<num>2</num>
+	</weapon>
+	<!--规则二：当出现没有变量名的数据时，用变量类型名-->
+	<listInt>
+		<int>1</int>
+		<int>2</int>
+		<int>3</int>
+	</listInt>
+	<itemList>
+		<Item id="1" num="10"/>
+		<Item id="2" num="20"/>
+		<Item id="3" num="30"/>
+		<Item id="4" num="40"/>
+	</itemList>
+	<itemDic>
+		<int>1</int>
+		<Item id="1" num="1"/>
+		<int>2</int>
+		<Item id="2" num="2"/>
+		<int>3</int>
+		<Item id="3" num="3"/>
+		<!--另一种写法，但是建议统一写法
+		<int>4</int>
+		<Item>
+			<id>4</id>
+			<num>4</num>
+		</Item>
+		-->
+	</itemDic>
+</PlayerInfo>

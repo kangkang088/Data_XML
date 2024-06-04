@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<name>kangkang</name>
+	<age>22</age>
+	<Item id ="1" num = "10"/>
+	<Friend>
+		<name>xiaoming</name>
+		<age>15</age>
+	</Friend>
+	<Friend>
+		<name>xiaohong</name>
+		<age>16</age>
+	</Friend>
+</Root>
